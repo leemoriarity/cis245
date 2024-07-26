@@ -1,0 +1,32 @@
+1st normal form
+--------
+2 rules
+1. no repeating groups
+2. every row should be unique
+
+each cell to be single valued
+entries in a column are same type
+rows uniquly identified = add unique id, or add more columns to make unique
+order of rows and columns irrelevant
+
+no multivalued fields
+each table has a unique identifier called a primary key
+
+
+2nd normal form
+---------
+must be in 1nf
+no partial key dependancies
+all attributes must be dependant on the key
+
+every non-prime attribute is dependant exclusivelt on the primary key
+
+
+3rd normal form
+----------
+must be in 1nf and 2nf
+attributes must be dependant solely on the key
+
+all fields(columns) can be determined only by the key in the table and no other column
+
+attributes are determined only by the primary key
